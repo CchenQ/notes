@@ -4,6 +4,7 @@ import router from "./router";
 import Router from "vue-router";
 import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
+import "./stylesheet/main.scss";
 Vue.config.productionTip = false;
 
 const originalPush = Router.prototype.push;

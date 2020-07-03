@@ -1,0 +1,79 @@
+html,
+body {
+  font-size: 100%;
+  font: inherit;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Microsoft YaHei', 'SimHei', tahoma, verdana, sans-serif;
+  line-height: 1;
+  transition: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  // transition: all 0.3s ease-in-out;
+}
+
+input {
+  border: none;
+  &[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+input,
+video {
+  outline: none;
+}
+
+ol,
+ul,
+li {
+  list-style-type: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+
+em {
+  font-style: normal;
+}
+
+p {
+  word-wrap: break-word;
+}
+
+i {
+  font-size: 1rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
